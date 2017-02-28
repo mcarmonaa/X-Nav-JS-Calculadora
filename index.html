@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Simple binary calculator">
+    <meta name="author" content="Manuel carmona">
+
+    <title>Calculadora Binaria Simple</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="hero-unit" id="calculator-wrapper">
+            <div class="row-fluid">
+                <div class="span8">
+                    <div id="calculator-display" class="uneditable-input"></div>
+                </div>
+                <div class="span1" style="text-align: center;">
+                    <div class="visible-phone">
+                        =
+                    </div>
+                </div>
+                <div class="span3">
+                    <div id="calculator-result" class="uneditable-input"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row-fluid">
+
+            <div class="span6 well">
+                <div id="calc-board">
+                    <div class="row-fluid">
+                        <a href="#" id="zero" class="btn">0</a>
+                        <a href="#" id="one" class="btn">1</a>
+                        <a href="#" id="plus" class="btn">+</a>
+                        <a href="#" id="equal" class="btn btn-primary">=</a>
+                        <a href="#" id="clear" class="btn btn-danger">C</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
